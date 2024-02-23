@@ -48,9 +48,7 @@ function About() {
               
             
               
-              <Col sm={12} md={4} lg={3} xl={2} className='shadow rounded me-2 d-flex justify-content-center align-items-center' style={{}}>
-                  <h4 className='p-3'>Responsive Design</h4>
-              </Col>
+              
               <Col sm={12} md={4} lg={3} xl={2} className='shadow rounded me-2 d-flex justify-content-center align-items-center' >               
                   <h4 className='p-3'>Express.js</h4>
               </Col>
