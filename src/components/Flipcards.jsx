@@ -4,12 +4,15 @@ import bmi from '../images/bmi.png'
 import reliance from '../images/reliance.png'
 import resturant from '../images/restaurant.png'
 import shineme from '../images/shineme.png'
+import { Col, Row } from 'react-bootstrap'
 
 function Flipcards() {
     
   return (
     <>
     <div className="container-fluid d-flex align-items-center justify-content-center flex-row">
+        <Row>
+            <Col sm={12} md={6} lg={3}>
         <div className="box">
             <div className="body">
                 <div className="imgContainer">
@@ -26,7 +29,8 @@ function Flipcards() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div></Col>
+        <Col sm={12} md={6} lg={3}>
         <div className="box">
             <div className="body">
                 <div className="imgContainer">
@@ -43,7 +47,8 @@ function Flipcards() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div></Col>
+        <Col sm={12} md={6} lg={3}>
         <div className="box">
             <div className="body">
                 <div className="imgContainer">
@@ -59,7 +64,8 @@ function Flipcards() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div></Col>
+        <Col sm={12} md={6} lg={3}>
         <div className="box">
             <div className="body">
                 <div className="imgContainer">
@@ -74,7 +80,8 @@ function Flipcards() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div></Col>
+        </Row>
     </div>
     </>
   )
